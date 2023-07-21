@@ -1,4 +1,4 @@
 destination | source
-input/lib | /Users/simonepandit/Documents/GitHub/template_simone/lib
-input/tv.csv | /Users/simonepandit/Documents/GitHub/template_simone/raw/tv.csv
-input/chips.csv | /Users/simonepandit/Documents/GitHub/template_simone/raw/chips.csv
+input/lib | /Users/jccp/Desktop/template/lib
+input/tv.csv | /Users/jccp/Desktop/template/raw/tv.csv
+input/chips.csv | /Users/jccp/Desktop/template/raw/chips.csv
