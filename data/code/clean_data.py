@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.ticker import PercentFormatter
 
 ### DEFINE
 def main():
@@ -10,7 +11,8 @@ def main():
     df.to_csv('output/data_cleaned.csv', index = False)
 
 def plot_data(df):
-    plt.hist(df['chips_sold'])
+    plt.hist(df['chips_sold'], weights = [1/len(df)]*len(df))
+    plt.gca().yaxis.set_major_formatter(PercentFormatter(1))
     plt.savefig('output/chips_sold.pdf')
 
 def clean_data(df):
