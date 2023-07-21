@@ -40,6 +40,7 @@ def format_model(fit):
     
     return(formatted)  
        
+       
     
 ### EXECUTE
 main()

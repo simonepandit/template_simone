@@ -1,13 +1,10 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-20 20:35:58
+Makelog started: 2023-07-21 11:23:01
 Working directory: /Users/simonepandit/Documents/GitHub/template_simone/paper_slides
 --------------------------------------------------------------------------------
 Input copies successfully created!
 External copies successfully created!
 Source logs successfully written!
-WARNING! The following target files have been modified according to git status:
-/Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression_1960.csv
-/Users/simonepandit/Documents/GitHub/template_simone/data/output/chips_sold.pdf
 Version logs successfully written!
 Executing command: `lyx -e pdf2 "/Users/simonepandit/Documents/GitHub/template_simone/paper_slides/code/paper.lyx"`
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
@@ -53,6 +50,6 @@ L3 programming layer <2022-02-24>
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-20 20:36:05
+Makelog ended: 2023-07-21 11:23:10
 Working directory: /Users/simonepandit/Documents/GitHub/template_simone/paper_slides
 --------------------------------------------------------------------------------
