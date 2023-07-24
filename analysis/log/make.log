@@ -1,27 +1,27 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-24 14:27:22
-Working directory: /Users/simonepandit/Documents/GitHub/template_simone/analysis
+Makelog started: 2023-07-24 15:09:39
+Working directory: /oak/stanford/groups/gentzkow/simonep/template_simone/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
 Version logs successfully written!
-Executing command: `python  "/Users/simonepandit/Documents/GitHub/template_simone/analysis/code/analyze_data.py" `
-/usr/local/Caskroom/miniconda/base/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+Executing command: `python  "/oak/stanford/groups/gentzkow/simonep/template_simone/analysis/code/analyze_data.py" `
+/home/users/spandit/miniconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/usr/local/Caskroom/miniconda/base/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+/home/users/spandit/miniconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/usr/local/Caskroom/miniconda/base/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+/home/users/spandit/miniconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/usr/local/Caskroom/miniconda/base/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+/home/users/spandit/miniconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-24 14:27:34
-Working directory: /Users/simonepandit/Documents/GitHub/template_simone/analysis
+Makelog ended: 2023-07-24 15:10:13
+Working directory: /oak/stanford/groups/gentzkow/simonep/template_simone/analysis
 --------------------------------------------------------------------------------

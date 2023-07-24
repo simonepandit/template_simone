@@ -1,59 +1,61 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-24 14:45:26
-Working directory: /Users/simonepandit/Documents/GitHub/template_simone/paper_slides
+Makelog started: 2023-07-24 15:10:16
+Working directory: /oak/stanford/groups/gentzkow/simonep/template_simone/paper_slides
 --------------------------------------------------------------------------------
 Input copies successfully created!
 External copies successfully created!
 Source logs successfully written!
 WARNING! The following target files have been modified according to git status:
-/Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression.csv
-/Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression_cluster.csv
-/Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression_cluster_1960.csv
+/oak/stanford/groups/gentzkow/simonep/template_simone/data/output/chips_sold.pdf
+/oak/stanford/groups/gentzkow/simonep/template_simone/analysis/output/regression_cluster_1960.csv
+/oak/stanford/groups/gentzkow/simonep/template_simone/analysis/output/regression_1960.csv
+/oak/stanford/groups/gentzkow/simonep/template_simone/analysis/output/regression_cluster.csv
+/oak/stanford/groups/gentzkow/simonep/template_simone/analysis/output/regression.csv
 Version logs successfully written!
-Executing command: `lyx -e pdf2 "/Users/simonepandit/Documents/GitHub/template_simone/paper_slides/code/paper.lyx"`
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+Executing command: `lyx -e pdf2 "/oak/stanford/groups/gentzkow/simonep/template_simone/paper_slides/code/paper.lyx"`
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./paper.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+LaTeX2e <2019-10-01> patch level 1
+
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./paper.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
+LaTeX2e <2019-10-01> patch level 1
 
-Executing command: `lyx -e pdf2 "/Users/simonepandit/Documents/GitHub/template_simone/paper_slides/code/online_appendix.lyx"`
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+
+Executing command: `lyx -e pdf2 "/oak/stanford/groups/gentzkow/simonep/template_simone/paper_slides/code/online_appendix.lyx"`
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./online_appendix.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+LaTeX2e <2019-10-01> patch level 1
+
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./online_appendix.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
+LaTeX2e <2019-10-01> patch level 1
 
-Executing command: `lyx -e pdf2 "/Users/simonepandit/Documents/GitHub/template_simone/paper_slides/code/slides.lyx"`
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+
+Executing command: `lyx -e pdf2 "/oak/stanford/groups/gentzkow/simonep/template_simone/paper_slides/code/slides.lyx"`
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./slides.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+LaTeX2e <2019-10-01> patch level 1
+
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./slides.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
+LaTeX2e <2019-10-01> patch level 1
+
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-24 14:45:34
-Working directory: /Users/simonepandit/Documents/GitHub/template_simone/paper_slides
+Makelog ended: 2023-07-24 15:10:29
+Working directory: /oak/stanford/groups/gentzkow/simonep/template_simone/paper_slides
 --------------------------------------------------------------------------------

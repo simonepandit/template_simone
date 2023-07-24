@@ -1,6 +1,6 @@
 destination | source
-input/regression.csv | /Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression.csv
-input/regression_1960.csv | /Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression_1960.csv
-input/chips_sold.pdf | /Users/simonepandit/Documents/GitHub/template_simone/data/output/chips_sold.pdf
-input/regression_cluster.csv | /Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression_cluster.csv
-input/regression_cluster_1960.csv | /Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression_cluster_1960.csv
+input/regression.csv | /oak/stanford/groups/gentzkow/simonep/template_simone/analysis/output/regression.csv
+input/regression_1960.csv | /oak/stanford/groups/gentzkow/simonep/template_simone/analysis/output/regression_1960.csv
+input/chips_sold.pdf | /oak/stanford/groups/gentzkow/simonep/template_simone/data/output/chips_sold.pdf
+input/regression_cluster.csv | /oak/stanford/groups/gentzkow/simonep/template_simone/analysis/output/regression_cluster.csv
+input/regression_cluster_1960.csv | /oak/stanford/groups/gentzkow/simonep/template_simone/analysis/output/regression_cluster_1960.csv
