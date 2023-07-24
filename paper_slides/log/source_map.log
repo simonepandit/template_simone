@@ -1,3 +1,4 @@
 destination | source
-input/regression.csv | /Users/jccp/Desktop/template/analysis/output/regression.csv
-input/chips_sold.pdf | /Users/jccp/Desktop/template/data/output/chips_sold.pdf
+input/regression.csv | /Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression.csv
+input/regression_1960.csv | /Users/simonepandit/Documents/GitHub/template_simone/analysis/output/regression_1960.csv
+input/chips_sold.pdf | /Users/simonepandit/Documents/GitHub/template_simone/data/output/chips_sold.pdf
