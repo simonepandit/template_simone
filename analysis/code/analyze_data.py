@@ -10,6 +10,10 @@ def main():
     fit1960 = run_regression(df_1960)
     formatted = format_model(fit)
     formatted_1960 = format_model(fit1960)
+    fit_cluster = run_regression_cluster(df)
+    formatted_cluster = format_model(fit_cluster)
+    fit_1960_cluster = run_regression_cluster(df_1960)
+    formatted_cluster_1960 = format_model(fit_1960_cluster)
     
     with open('output/regression.csv', 'w') as f:
         f.write('<tab:regression>' + '\n')
@@ -18,6 +22,15 @@ def main():
     with open('output/regression_1960.csv', 'w') as f:
         f.write('<tab:regression_1960>' + '\n')
         formatted_1960.to_csv(f, sep = '\t', index = False, header = False)
+        
+    with open('output/regression_cluster.csv', 'w') as f:
+        f.write('<tab:regression_cluster>' + '\n')
+        formatted_cluster.to_csv(f, sep = '\t', index = False, header = False)
+        
+    with open('output/regression_cluster_1960.csv', 'w') as f:
+        f.write('<tab:regression_cluster_1960>' + '\n')
+        formatted_cluster_1960.to_csv(f, sep = '\t', index = False, header = False)
+
     
 def import_data():
     df = pd.read_csv('input/data_cleaned.csv')
@@ -31,6 +44,14 @@ def run_regression(df):
     fit = model.fit()
     
     return(fit)
+    
+def run_regression_cluster(df):
+    df = df.set_index(['county_id', 'year'])
+    model = PanelOLS.from_formula('chips_sold ~ 1 + post_tv + EntityEffects + TimeEffects', data = df)
+    fit = model.fit(cov_type='clustered', cluster_entity = True)
+    
+    return(fit)
+     
     
 def format_model(fit):
     formatted = pd.DataFrame({'coef'     : fit.params, 
