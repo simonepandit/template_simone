@@ -1,14 +1,14 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-21 10:39:04
-Working directory: /Users/simonepandit/Documents/GitHub/template_simone/data
+Makelog started: 2023-07-24 15:09:22
+Working directory: /oak/stanford/groups/gentzkow/simonep/template_simone/data
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
 Version logs successfully written!
-Executing command: `python  "/Users/simonepandit/Documents/GitHub/template_simone/data/code/merge_data.py" `
-Executing command: `python  "/Users/simonepandit/Documents/GitHub/template_simone/data/code/clean_data.py" `
-/Users/simonepandit/Documents/GitHub/template_simone/data/code/clean_data.py:19: SettingWithCopyWarning: 
+Executing command: `python  "/oak/stanford/groups/gentzkow/simonep/template_simone/data/code/merge_data.py" `
+Executing command: `python  "/oak/stanford/groups/gentzkow/simonep/template_simone/data/code/clean_data.py" `
+/oak/stanford/groups/gentzkow/simonep/template_simone/data/code/clean_data.py:19: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -16,9 +16,9 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 Output logs successfully written!
 WARNING! Certain files tracked by git exceed the config size limit (0.5 MB). See below for list of files.
-/Users/simonepandit/Documents/GitHub/template_simone/data/output/data_merged.csv
-/Users/simonepandit/Documents/GitHub/template_simone/data/output/data_cleaned.csv
+/oak/stanford/groups/gentzkow/simonep/template_simone/data/output/data_merged.csv
+/oak/stanford/groups/gentzkow/simonep/template_simone/data/output/data_cleaned.csv
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-21 10:39:09
-Working directory: /Users/simonepandit/Documents/GitHub/template_simone/data
+Makelog ended: 2023-07-24 15:09:37
+Working directory: /oak/stanford/groups/gentzkow/simonep/template_simone/data
 --------------------------------------------------------------------------------
